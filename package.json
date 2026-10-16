@@ -1,0 +1,16 @@
+{
+  "name": "brite-star-install-report",
+  "version": "1.0.0",
+  "description": "Contractor install-report form for Brite Star LED. Emails each submission and stores it for the admin dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.16"
+  }
+}
